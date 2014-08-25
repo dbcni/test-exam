@@ -10,4 +10,6 @@
 
 @interface TestBGViewController : UIViewController
 
+- (IBAction)clickTheButton:(id)sender;
+
 @end

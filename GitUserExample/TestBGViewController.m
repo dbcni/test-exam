@@ -14,6 +14,12 @@
 
 @implementation TestBGViewController
 
+#pragma mark - IBActions
+- (IBAction)clickTheButton:(id)sender
+{
+    NSLog(@"This is git tutorial");
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
